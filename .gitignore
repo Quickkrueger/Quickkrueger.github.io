@@ -1,2 +1,17 @@
+# Windows
+Thumbs.db
+Desktop.ini
+*.docx
 
+# Mac
+.DS_Store
+*.docx
+
+# VS Code
+.vs
+.vscode
+*.docx
+
+# Webstorm
+.idea
 *.docx
