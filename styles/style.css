@@ -1,0 +1,43 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centerall{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.portrait{
+    float: right;
+    padding-right: 15%;
+}
+
+.tableheader{
+    text-align: center;
+}
+
+.animation{
+    background-color: wheat;
+}
+
+.programming{
+    background-color: tomato;
+}
+
+.classwork{
+    background-color: teal;
+}
+
+.lunch{
+    background-color: gray;
+}
+
+footer{
+    position: sticky;
+    bottom: 0%;
+    background-color: white;
+}
