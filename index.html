@@ -6,6 +6,15 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
+        <div class="navbackground">
+        <div class="topnav" id="home">
+            <a href="#home" class="navitem">Home</a>
+            <a href="#reading" class="navitem">Reading</a>
+            <a href="#about" class="navitem">About</a>
+            <a href="#schedule" class="navitem">Schedule</a>
+          </div>
+        </div>
+
         <div class="centerall">
         <h1 class="name">Marshall Krueger</h1>
         <img src="/images/marshall-portrait.jpg" alt="Marshall Portrait" width="500" height="500" class="portrait">
@@ -15,7 +24,7 @@
             <li><b>Major:</b> Animation and Game Development</li>
             <li><b>High School:</b> Midland High, Midland, Michigan</li>
             <li><b>Current Year at UVU:</b> I'm a transfer student, so I'm not sure.</li>
-            <li><b>Favorite ice cream:</b> Anything with peanutbutter</li>
+            <li id="reading"><b>Favorite ice cream:</b> Anything with peanutbutter</li>
         </ul>
 
         <h2>My Five Favorite Books</h2>
@@ -29,76 +38,70 @@
 
         <h2>Haiku</h2>
         <p>A haiku about haiku:</p>
-        <span><i>
+        <p id="about" class="haiku"><i>
             Starting with five beats,<br>
             followed by seven more beats,<br>
             ending with five beats.
             </i>
-        </span>
+        </p>
 
-        <h2>My Personal Interests</h2>
+        <h2 >My Personal Interests</h2>
         <p>
-            I enjoy collecting, and repairing, retro game consoles. Currently I focus on Nintendo consoles, <br>
-            the only console I am missing from that line up is the Virtual Boy. I also collect games that I <br>
-            either played growing up or I heard about from friends, but never had the chance to play. One of my <br>
+            I enjoy collecting, and repairing, retro game consoles. Currently I focus on Nintendo consoles,
+            the only console I am missing from that line up is the Virtual Boy. I also collect games that I
+            either played growing up or I heard about from friends, but never had the chance to play. One of my
             favorite games to have re-discovered is <b>Diddy Kong Racing</b> on the <b>Nintendo 64</b>.
         </p>
         <p>
-            I also like to play around with game development in my free time.  I like to try creating different <br>
-            game mechanics and experimenting with how to implement said mechanics. Some mechanics are specific ones<br> 
-            I pull from existing games, some are common to a variety of games, and others I come up with in spurts<br>
-            of creativity. Not every game mechanic turns out, but I always end up enjoying the creative exercise it<br>
+            I also like to play around with game development in my free time.  I like to try creating different
+            game mechanics and experimenting with how to implement said mechanics. Some mechanics are specific ones 
+            I pull from existing games, some are common to a variety of games, and others I come up with in spurts
+            of creativity. Not every game mechanic turns out, but I always end up enjoying the creative exercise it
             gives, and learning new skills along the way.
         </p>
         <p>
-            Another interest of mine is 3D Printing and 3d Modeling. I've dabbled in 3D modeling for a few years and <br>
-            have recently taken up 3D printing. Mostly I print things designed by others, however I've just started <br>
-            working on making my own models for printing. Its taking a lot of trial and error, but I am enjoying the process.<br>
+            Another interest of mine is 3D Printing and 3D Modeling. I've dabbled in 3D modeling for a few years and
+            have recently taken up 3D printing. Mostly I print things designed by others, however I've just started
+            working on making my own models for printing. Its taking a lot of trial and error, but I am enjoying the process.
         </p>
 
-        <h2>Class Schedule</h2>
-        <table border="1" >
-            <tr>
-                <td></td>
+        <h2 id="schedule">Class Schedule</h2>
+        <table border="1">
+            <th>
                 <td class="tableheader"><b>Monday</b></td>
                 <td class="tableheader"><b>Tuesday</b></td>
                 <td class="tableheader"><b>Wednesday</b></td>
                 <td class="tableheader"><b>Thursday</b></td>
                 <td class="tableheader"><b>Friday</b></td>
-            </tr>
+            </th>
             <tr>
                 <td>8:00</td>
                 <td rowspan="6" class="classwork">Classwork</td>
                 <td></td>
                 <td rowspan="6" class="classwork">Classwork</td>
                 <td></td>
-                <td>Friday</td>
+                <td rowspan="6" class="classwork">Classwork</td>
             </tr>
             <tr>
                 <td>8:30</td>
                 <td></td>
                 <td></td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>9:00</td>
                 <td></td>
                 <td></td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>9:30</td>
                 <td rowspan="5" class="classwork">Classwork</td>
                 <td rowspan="5" class="classwork">Classwork</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>10:00</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>10:30</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>11:00</td>
@@ -117,105 +120,75 @@
             <tr>
                 <td>12:30</td>
                 <td class="lunch">Lunch</td>
-                <td>Tuesday</td>
+                <td rowspan="5" class="classwork">Classwork</td>
                 <td class="lunch">Lunch</td>
-                <td>Thursday</td>
+                <td rowspan="5" class="classwork">Classwork</td>
                 <td class="lunch">Lunch</td>
             </tr>
             <tr>
                 <td>1:00</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td rowspan="5" class="classwork">Classwork</td>
+                <td rowspan="5" class="classwork">Classwork</td>
+                <td rowspan="5" class="classwork">Classwork</td>
             </tr>
             <tr>
                 <td>1:30</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>2:00</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>2:30</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>3:00</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>3:30</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>4:00</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td rowspan="3" class="work">Work</td>
+                <td rowspan="3" class="work">Work</td>
+                <td rowspan="3" class="work">Work</td>
+                <td rowspan="3" class="work">Work</td>
+                <td rowspan="3" class="work">Work</td>
             </tr>
             <tr>
                 <td>4:30</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>5:00</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
             </tr>
             <tr>
                 <td>5:30</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
+                <td></td>
+                <td></td>
                 <td rowspan="2" class="programming">Web Programming I</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>6:00</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>6:30</td>
-                <td>Monday</td>
-                <td>Tuesday</td>
-                <td>Wednesday</td>
-                <td>Thursday</td>
-                <td>Friday</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
         </table>
     </div>

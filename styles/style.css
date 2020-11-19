@@ -2,9 +2,49 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.centerall{
-    max-width: 1000px;
+.navbackground{
+    background-color: white;
+    position: sticky;
+    top: 0%;
+}
+
+.topnav{
+    padding-top: 10px;
+    height: 30px;
+    max-width: 500px;
     margin: auto;
+}
+
+td, th{
+    justify-content: left;
+    vertical-align: top;
+}
+
+.haiku{
+    padding-left: 3%;
+}
+
+.navitem{
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navitem:hover{
+    background-color: grey;
+}
+
+.navitem:active{
+    background-color: lightgray;
+}
+
+.centerall{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .name{
@@ -13,11 +53,6 @@ html{
 
 .portrait{
     float: right;
-    padding-right: 15%;
-}
-
-.tableheader{
-    text-align: center;
 }
 
 .animation{
@@ -34,6 +69,10 @@ html{
 
 .lunch{
     background-color: gray;
+}
+
+.work{
+    background-color: green;
 }
 
 footer{
